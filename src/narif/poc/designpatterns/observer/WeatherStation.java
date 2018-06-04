@@ -34,7 +34,9 @@ public class WeatherStation {
 	
 	private static Stream<WeatherMeasurements> getMeasurements(){
 		return Arrays
-				.asList(new WeatherMeasurements(80D, 65D, 30.4D))
+				.asList(new WeatherMeasurements(80D, 65D, 30.4D),
+						new WeatherMeasurements(30D, 75D, 20.4D),
+						new WeatherMeasurements(90D, 55D, 40.6D))
 				.stream();
 	}
 
