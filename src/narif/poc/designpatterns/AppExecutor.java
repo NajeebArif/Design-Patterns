@@ -1,9 +1,11 @@
 package narif.poc.designpatterns;
 
+import narif.poc.designpatterns.observer.WeatherStation;
+
 public class AppExecutor {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Design Patterns");
+		WeatherStation.main(null);
 	}
 
 }
